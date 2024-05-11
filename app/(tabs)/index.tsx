@@ -2,6 +2,12 @@ import { CameraView, useCameraPermissions } from 'expo-camera';
 import { useState } from 'react';
 import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { GLView } from 'expo-gl';
+import RNFS from 'react-native-fs';
+import * as tf from '@tensorflow/tfjs';
+import '@tensorflow/tfjs-react-native';
+
 export default function App() {
   const [facing, setFacing] = useState('front');
   const [permission, requestPermission] = useCameraPermissions();
