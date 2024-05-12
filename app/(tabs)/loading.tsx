@@ -1,3 +1,4 @@
+/*
 import { CameraView, useCameraPermissions } from 'expo-camera';
 import { useState, useEffect } from 'react';
 import { Button, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
@@ -126,3 +127,4 @@ const styles = StyleSheet.create({
     alignSelf: 'center'
   },
 });
+*/
