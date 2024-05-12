@@ -48,3 +48,18 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+## Some info I found on forums
+
+#I tried to align these but faced dependency hell and went back to current versions. 
+https://github.com/tensorflow/tfjs-examples/tree/master/react-native
+If the demo app crashes on startup, it is highly likely caused by incompatible package versions, specifically expo-gl and react-native. As of Jan 2022, the following version combination should work. It is tested on iPhone 13 Pro Max with iOS 15.1.1 and Pixel 2 with Android 9:
+
+"expo": "~44.0.2",
+"expo-camera": "^12.1.0",
+"expo-file-system": "^13.2.0",
+"expo-gl": "^11.1.1",
+"expo-gl-cpp": "^11.1.0",
+"react": "17.0.1",
+"react-native": "~0.64.3",
