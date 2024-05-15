@@ -24,6 +24,7 @@
     "@tensorflow/tfjs-converter": "^4.19.0",
     "@tensorflow/tfjs-core": "^4.19.0",
     "@tensorflow/tfjs-react-native": "^1.0.0",
+    "async-storage": "^0.1.0",
     "expo": "~51.0.2",
     "expo-camera": "~15.0.6",
     "expo-constants": "~16.0.1",
