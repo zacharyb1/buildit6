@@ -52,6 +52,14 @@ Join our community of developers creating universal apps.
 
 ## Some info I found on forums
 
+The best approach would be to bundle the model with your app using the bundleResourceIO method. Here's why:
+Simplicity: Bundling the model with your app is the simplest method and doesn't require dealing with AsyncStorage limits or filesystem access.
+No Need for Dynamic Loading: Since you're comparing two specific videos, you don't need to dynamically load different models at runtime. You can bundle the specific model you need with your app.
+Offline Access: Bundling the model with your app ensures that the model is available even if the user is offline.
+
+
+
+
 #I tried to align these but faced dependency hell and went back to current versions. 
 https://github.com/tensorflow/tfjs-examples/tree/master/react-native
 If the demo app crashes on startup, it is highly likely caused by incompatible package versions, specifically expo-gl and react-native. As of Jan 2022, the following version combination should work. It is tested on iPhone 13 Pro Max with iOS 15.1.1 and Pixel 2 with Android 9:
